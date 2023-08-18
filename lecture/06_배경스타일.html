@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경스타일</title>
+    <style>
+        body{
+            background: aqua;
+        }
+
+        #div-bg{
+            background: white;
+        }
+
+        .div-test {
+            background: white;
+            padding: 20px;
+            border: 5px dashed black;
+            width: 20%;
+            float: left;
+        }
+
+        #div1{
+            background-clip: border-box;
+        }
+        #div2{
+            background-clip: padding-box;
+        }
+        #div3{
+            background-clip: content-box;
+        }
+
+        .clearfloat {
+            clear : left;
+        }
+
+        #bg-img {
+            width: 70%;
+            height: 1600px;
+            border: 4px solid red;
+            background-image: url("../resources/images/flower1.PNG");
+
+            background-repeat: no-repeat;
+
+            background-size: cover;
+            background-size: contain;
+            background-size: auto;
+
+            background-attachment: fixed;
+            background-attachment: scroll;
+
+            background-position: 50% 50%;
+            background-position: 30px 50px;
+            background-position: bottom;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>배경색과 배경 이미지</h1>
+
+    <h3>div 배경 테스트</h3>
+    <div id="div-bg">
+        청춘이 별과 있는 같이, 거선의 우리 가는 길지 것이다. 속에서 이상은 평화스러운 같이 없으면, 창공에 이것이야말로 커다란 있으랴? 간에 무엇을 찾아 이상 황금시대의 피어나기 듣는다. 것이다.보라, 피는 장식하는 내는 열락의 있는가? 뜨고, 하는 물방아 아니다. 뛰노는 든 그들에게 힘차게 힘차게 대고, 굳세게 이것이다. 이상, 위하여, 가진 어디 있으랴? 속에 그들을 하는 석가는 있는가? 싸인 트고, 사랑의 같이, 평화스러운 노래하며 칼이다. 위하여 우리 사랑의 예가 가지에 열매를 있는 힘차게 때까지 봄바람이다.
+    </div>
+
+    <h3>배경 적용 범위 조정</h3>
+    <div class="div-test" id="div1">
+        청춘이 별과 있는 같이, 거선의 우리 가는 길지 것이다. 속에서 이상은 평화스러운 같이 없으면, 창공에 이것이야말로 커다란 있으랴? 간에 무엇을 찾아 이상 황금시대의 피어나기 듣는다. 것이다.보라, 피는 장식하는 내는 열락의 있는가? 뜨고, 하는 물방아 아니다. 뛰노는 든 그들에게 힘차게 힘차게 대고, 굳세게 이것이다. 이상, 위하여, 가진 어디 있으랴? 속에 그들을 하는 석가는 있는가? 싸인 트고, 사랑의 같이, 평화스러운 노래하며 칼이다. 위하여 우리 사랑의 예가 가지에 열매를 있는 힘차게 때까지 봄바람이다.
+    </div>
+    <div class="div-test" id="div2">
+        청춘이 별과 있는 같이, 거선의 우리 가는 길지 것이다. 속에서 이상은 평화스러운 같이 없으면, 창공에 이것이야말로 커다란 있으랴? 간에 무엇을 찾아 이상 황금시대의 피어나기 듣는다. 것이다.보라, 피는 장식하는 내는 열락의 있는가? 뜨고, 하는 물방아 아니다. 뛰노는 든 그들에게 힘차게 힘차게 대고, 굳세게 이것이다. 이상, 위하여, 가진 어디 있으랴? 속에 그들을 하는 석가는 있는가? 싸인 트고, 사랑의 같이, 평화스러운 노래하며 칼이다. 위하여 우리 사랑의 예가 가지에 열매를 있는 힘차게 때까지 봄바람이다.
+    </div>
+    <div class="div-test" id="div3">
+        청춘이 별과 있는 같이, 거선의 우리 가는 길지 것이다. 속에서 이상은 평화스러운 같이 없으면, 창공에 이것이야말로 커다란 있으랴? 간에 무엇을 찾아 이상 황금시대의 피어나기 듣는다. 것이다.보라, 피는 장식하는 내는 열락의 있는가? 뜨고, 하는 물방아 아니다. 뛰노는 든 그들에게 힘차게 힘차게 대고, 굳세게 이것이다. 이상, 위하여, 가진 어디 있으랴? 속에 그들을 하는 석가는 있는가? 싸인 트고, 사랑의 같이, 평화스러운 노래하며 칼이다. 위하여 우리 사랑의 예가 가지에 열매를 있는 힘차게 때까지 봄바람이다.
+    </div>
+
+    <hr class="clearfloat">
+
+    <h3>배경 이미지 테스트</h3>
+    <div id="bg-img"></div>
+</body>
+</html>
